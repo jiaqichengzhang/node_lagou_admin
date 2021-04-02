@@ -1,0 +1,9 @@
+body{
+
+}
+#root{
+    height:100%;
+}
+#userPagesList li{
+    cursor: pointer;
+}

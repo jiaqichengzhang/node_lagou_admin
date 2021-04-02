@@ -1,0 +1,26 @@
+<div class="box">
+    <div class="box-header with-border">
+        <button class="btn btn-primary" id="btn-show-add-user" data-toggle="modal" data-target=".add-modal">添加</button>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th style="width: 10px">#</th>
+                <th>用户</th>
+                <th style="width: 100px">操作</th>
+            </tr>
+            </thead>
+            <tbody id="userList">
+            </tbody>
+        </table>
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer clearfix" id="userPages">
+    </div>
+</div>
+
+<div class="modal fade add-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="add-user-box">
+
+</div>

@@ -1,0 +1,7 @@
+<ul class="pagination pagination-sm no-margin pull-right" id="userPagesList">
+    <li data-page="pre"><a href="javascript:void(0)">«</a></li>
+    <% for(var i = 0; i < totalPage; i++){ %>
+    <li data-page="<%= i+1 %>"><a href="javascript:void(0)"><%= i+1 %></a></li>
+    <% } %>
+    <li data-page="next"><a href="javascript:void(0)">»</a></li>
+</ul>

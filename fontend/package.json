@@ -1,0 +1,25 @@
+{
+  "name": "fontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "art-template": "^4.13.2",
+    "art-template-loader": "^1.4.3",
+    "copy-webpack-plugin": "6.4.1",
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "4.5.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.17.1",
+    "webpack-clean-plugin": "^0.2.3",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "sme-router": "^0.12.8"
+  }
+}
